@@ -4,9 +4,7 @@ const Stock = (props) => (
   <div>
 
     <div className="card"
-    onClick={() => props.addOrRemove(props)}
-    //onClick={props.removeFromPortfolio}
-    >
+    onClick={() => props.addOrRemove(props)}>
       <div className="card-body">
         <h5 className="card-title">{props.name}
           </h5>

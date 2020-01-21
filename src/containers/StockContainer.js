@@ -3,7 +3,6 @@ import Stock from '../components/Stock'
 
 class StockContainer extends Component {
  
-
   render() {
     return (
       <div>

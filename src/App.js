@@ -6,7 +6,6 @@ class App extends Component {
 
   state = {
     allStocks: [],
-    // filteredStocks: [],
     myPortfolio: [],
     inPortfolio: [],
     selectedFilter: 'none'
@@ -79,22 +78,6 @@ class App extends Component {
       })
       
     }
-       
-    //    if (selection === "Tech") {
-    //    this.setState({
-    //      selectedType: this.state.allStocks.filter(stock => stock.type === 'Tech')
-    //    })
-    //   } if (selection === "Sportswear") {
-    //     this.setState({
-    //       allStocks: this.state.allStocks.filter(stock => stock.type === 'Sportswear')
-    //     })
-    //    } if (selection === "Finance") {
-    //     this.setState({
-    //       allStocks: this.state.allStocks.filter(stock => stock.type === 'Finance')
-    //     })
-    //    }
-    //  }
-
 
   render() {
     return (
