@@ -6,6 +6,7 @@ class App extends Component {
 
   state = {
     allStocks: [],
+    filteredStocks: [],
     myPortfolio: [],
     inPortfolio: [],
     selectedFilter: 'none'
@@ -74,7 +75,7 @@ class App extends Component {
        let newList = this.state.allStocks.filter(stock => stock.type === target.value)
        this.setState({
         selectedFilter: target.value,
-        allStocks: newList
+        filteredStocks: newList
       })
       
     }
